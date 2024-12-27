@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "scripts": {
+    "postbuild": "tailwindcss -i css/input.css -o css/style.css",
+    "watch": "tailwindcss -i ./css/input.css -o ./css/style.css --watch",
+    "postinstall": "tailwindcss -i css/input.css -o css/style.css"
+  }
+}

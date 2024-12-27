@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisika Biomedis - Kelompok 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            background-color: #f7ebe8; /* Pastel background */
+        }
+        .bg-pastel-brown { background-color: #d9b99b; } /* Navbar & Footer */
+        .text-pastel-dark { color: #5c4534; } /* Text */
+        .text-pastel-link { color: #8a6342; }
+        .text-pastel-link:hover { color: #6a4b33; }
+        .shadow-custom { box-shadow: 0 4px 8px rgba(92, 69, 52, 0.2); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+    <!-- Navbar -->
+    <nav class="bg-pastel-brown text-white py-4 shadow-custom">
+        <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">Kelompok 2</div>
+            <div class="text-lg font-semibold">Hematology Analyzer</div>
+        </div>
+    </nav>
+
+    <!-- Anggota Kelompok -->
+    <section class="py-8">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
+            <!-- Anggota Cards -->
+            <div class="bg-white p-6 rounded-lg shadow-custom">
+                <img src="media/profile-placeholder.png" alt="Anggota 1" class="w-40 h-40 object-cover rounded-full mx-auto mb-6 border-2 border-gray-300">
+                <h3 class="text-xl font-semibold text-pastel-dark text-center">Mellyana</h3>
+                <p class="text-gray-600 text-center">NIM: 101052300021</p>
+            </div>
+            <!-- Anggota Cards 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-custom">
+                <img src="media/profile-placeholder.png" alt="Anggota 2" class="w-40 h-40 object-cover rounded-full mx-auto mb-6 border-2 border-gray-300">
+                <h3 class="text-xl font-semibold text-pastel-dark">Mochamad Luthfi Firdaus</h3>
+                <p class="text-gray-600">NIM: 101052300090</p>
+            </div>
+            
+            <!-- Anggota Cards 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-custom">
+                <img src="media/profile-placeholder.png" alt="Anggota 3" class="w-40 h-40 object-cover rounded-full mx-auto mb-6 border-2 border-gray-300">
+                <h3 class="text-xl font-semibold text-pastel-dark">Aisha Laila Mardiyah</h3>
+                <p class="text-gray-600">NIM: 101052300115</p>
+            </div>
+            
+            <!-- Anggota Cards 4 -->
+            <div class="bg-white p-6 rounded-lg shadow-custom">
+                <img src="media/profile-placeholder.png" alt="Anggota 3" class="w-40 h-40 object-cover rounded-full mx-auto mb-6 border-2 border-gray-300">
+                <h3 class="text-xl font-semibold text-pastel-dark">Mohammad Fiqri Firmansyah</h3>
+                <p class="text-gray-600">NIM: 101052300113</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel -->
+    <section class="py-10">
+    </section>
+
+    <!-- Main Content -->
+    <main class="flex-grow flex items-center justify-center p-6">
+        <div class="max-w-6xl w-full bg-white p-8 rounded-lg shadow-custom">
+            <h1 class="text-3xl font-semibold mb-6 text-pastel-dark text-center">
+                Daftar Pustaka
+            </h1>
+            <ul class="space-y-5">
+                <li class="flex items-center space-x-4 border-b pb-4">
+                    <span class="text-gray-600 text-xl">🔗</span>
+                    <a href="https://www.sciencedirect.com/book/9780702066962/dacie-and-lewis-practical-haematology" target="_blank" class="text-pastel-link font-medium text-lg transition-colors">
+                        Bain, B. J., Bates, I., Laffan, M. A., & Lewis, S. M. (2016). Dacie and Lewis Practical Haematology (12th ed.). Elsevier.
+                    </a>
+                </li>
+
+                <li class="flex items-center space-x-4 border-b pb-4">
+                    <span class="text-gray-600 text-xl">🔗</span>
+                    <a href="https://www.researchgate.net/publication/305239989_Postgraduate_Haematology_Seventh_Edition" target="_blank" class="text-pastel-link font-medium text-lg transition-colors">
+                        Hoffbrand, A. V., Higgs, D. R., Keeling, D. M., & Mehta, A. B. (2019). Postgraduate Haematology (7th ed.). Wiley-Blackwell.
+                    </a>
+                </li>
+
+                <li class="flex items-center space-x-4 border-b pb-4">
+                    <span class="text-gray-600 text-xl">🔗</span>
+                    <a href="#" target="_blank" class="text-pastel-link font-medium text-lg transition-colors">
+                        Haque, A. K., & Siddiqui, F. A. (2018). Principles of automated hematology analyzer: A review. International Journal of Laboratory Hematology, 40(5), 536-543.
+                    </a>
+                </li>
+                
+                <li class="flex items-center space-x-4 border-b pb-4">
+                    <span class="text-gray-600 text-xl">🔗</span>
+                    <a href="#" target="_blank" class="text-pastel-link font-medium text-lg transition-colors">
+                        Hoffmann, W., & Rothmund, M. (2020). Hematology analyzers and quality control: Basics and applications. Journal of Clinical Hematology, 32(3), 129-140.
+                    </a>
+                </li>
+                
+                <li class="flex items-center space-x-4 border-b pb-4">
+                    <span class="text-gray-600 text-xl">🔗</span>
+                    <a href="#" target="_blank" class="text-pastel-link font-medium text-lg transition-colors">
+                        Lehmann, C. M., & Li, C. C. (2019). Modern Hematology Instruments: Design and Function. Springer.
+                    </a>
+                </li>
+                                
+                <li class="flex items-center space-x-4 border-b pb-4">
+                    <span class="text-gray-600 text-xl">🔗</span>
+                    <a href=" https://www.who.int/" target="_blank" class="text-pastel-link font-medium text-lg transition-colors">
+                        World Health Organization (WHO). (2021). Use of automated hematology analyzers in clinical laboratories. Diakses dari https://www.who.int/
+                </li>
+
+                <li class="flex items-center space-x-4 border-b pb-4">
+                    <span class="text-gray-600 text-xl">🔗</span>
+                    <a href=" https://www.who.int/" target="_blank" class="text-pastel-link font-medium text-lg transition-colors">
+                        Infolabmed. (2017). Metode Pengukuran Pada Hematologi Analyzer. Diakses dari https://www.infolabmed.com/2017/04/metode-pengukuran-pada-hemato
+                </li>  
+            </ul>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-pastel-brown text-white py-4 shadow-custom">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            &copy; Kelomok 2 TB-47-02 | 2024 All Rights Reserved
+        </div>
+    </footer>
+
+</body>
+</html>
